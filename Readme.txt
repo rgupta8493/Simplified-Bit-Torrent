@@ -18,17 +18,17 @@ This project works on a ring topology in which first the Mainserver sends all th
 
 Config file(Ring topology):
 -------------------------------------------------------------------------------------------------------------------------------------------------
-(Ports)                    Server         client 1     client 2    client 3     client 4   client 5   
+(Ports)                    Server         client 1     client 2    client 3    client 4       client 5
 
-client 1                   4450               ----            ----             ----            ----          5002
+client 1                   4450           ----            ----             ----                ----              5002
   
-client 2                   4450             5000           ----             ----            ----           ----
+client 2                   4450             5000           ----             ----            ----              ----
 
-client 3                   4450              ----            5001           ----            ----           ----
+client 3                   4450              ----            5001           ----            ----              ----
 
-client 4                   4450              ----             ----           11000         ----           ----
+client 4                   4450              ----             ----           11000         ----              ----
 
-client 5                   4450              ----             ----            ----            12000       ----
+client 5                   4450              ----             ----            ----            12000          ----
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -37,13 +37,13 @@ Run :
 
 First put your file in splitfile package and name your file in main server ,counter and the corresponding Merge files for every client with the proper extension . 
 Then first run the Mainserver and then run all the clients one after another .
-For testing , a Test.pdf file is already set in all the required files ....Hit Run straight away ..(Mainserver-->Client1-->Client2-->Client3-->Client4--->Client5)..
+For testing , a Test.zip file is already set in all the required files ....Hit Run straight away ..(Mainserver-->Client1-->Client2-->Client3-->Client4--->Client5)..
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
                                                              
                                              
-                                                            *******************************END OF README FILE*************************
+                                               *******************************END OF README FILE*************************
 
 
 
